@@ -243,7 +243,7 @@ function spawnMainWindow() : void
 						if (presence.npTitleId === undefined)
 						{
 							discordRichPresenceData = {
-								details: 'Online',
+								details: 'Online'
 								//smallImageKey: 'ps4_small',
 								//smallImageText: presence.platform
 							};
