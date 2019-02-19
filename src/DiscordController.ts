@@ -26,9 +26,9 @@ export class DiscordController
 	private _lastStartTimestamp : number;
 	private _defaultInfo : IDiscordPresenceDefaultDataModel =  {
 		instance: true,
-		largeImageKey: 'ps4_main',
+		largeImageKey: 'ps4_big',
 		largeImageText: 'PlayStation 4',
-		smallImageKey: 'ps4_main',
+		smallImageKey: 'ps4_small',
 		smallImageText: 'PlayStation 4'
 	};
 
