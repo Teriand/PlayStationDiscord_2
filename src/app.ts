@@ -261,7 +261,7 @@ function spawnMainWindow() : void
 								largeImageText: presence.npTitleId
 							};
 
-							log.info('Game has switched', presence.titleName);
+							log.info('Game has switched', presence.titleName, ' (',presence.npTitleId.toLowerCase(),')' );
 
 							if (supportedGames.has(presence.npTitleId) || supportedGames.has(presence.titleName))
 							{
