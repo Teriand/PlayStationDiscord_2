@@ -273,7 +273,10 @@ function spawnMainWindow() : void
 							}
 							else
 							{
-								supportedTitleId = undefined;
+								const discordFriendly = presence.npTitleId.toLowerCase();
+								discordRichPresenceData.largeImageKey = discordFriendly;
+								supportedTitleId = discordFriendly;
+								log.info('Using game icon since it is NOTsupported');
 							}
 						}
 					}
