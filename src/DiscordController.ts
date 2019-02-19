@@ -28,8 +28,8 @@ export class DiscordController
 		instance: true,
 		largeImageKey: 'ps4_big',
 		largeImageText: 'PlayStation 4',
-		smallImageKey: ' ',
-		smallImageText: ' '
+		smallImageKey: '  ',
+		smallImageText: '  '
 	};
 
 	constructor(clientId: string)
