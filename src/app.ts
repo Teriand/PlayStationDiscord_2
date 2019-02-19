@@ -244,7 +244,6 @@ function spawnMainWindow() : void
 						{
 							discordRichPresenceData = {
 								details: 'Online'
-								
 							};
 
 							discordRichPresenceOptionsData = {
@@ -260,7 +259,6 @@ function spawnMainWindow() : void
 								state: presence.gameStatus,
 								startTimestamp: Date.now(),
 								largeImageText: presence.titleName
-								
 							};
 
 							log.info('Game has switched', presence.titleName);
