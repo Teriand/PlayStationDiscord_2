@@ -244,8 +244,7 @@ function spawnMainWindow() : void
 						{
 							discordRichPresenceData = {
 								details: 'Online'
-								//smallImageKey: 'ps4_small',
-								//smallImageText: presence.platform
+								
 							};
 
 							discordRichPresenceOptionsData = {
@@ -261,8 +260,7 @@ function spawnMainWindow() : void
 								state: presence.gameStatus,
 								startTimestamp: Date.now(),
 								largeImageText: presence.titleName
-								//smallImageKey: 'ps4_small',
-								//smallImageText: presence.platform
+								
 							};
 
 							log.info('Game has switched', presence.titleName);
