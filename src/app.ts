@@ -283,9 +283,7 @@ function spawnMainWindow() : void
 						discordRichPresenceData = {
 							details: presence.titleName,
 							state: presence.gameStatus,
-							largeImageText: presence.titleName,
-							smallImageKey: 'ps4_small',
-							smallImageText: presence.platform
+							largeImageText: presence.titleName
 						};
 
 						if (supportedTitleId !== undefined)
