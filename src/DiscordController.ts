@@ -1,4 +1,4 @@
-export const ps4ClientId : string 		= '457775893746810880';
+export const ps4ClientId : string 		= '541917623240097795';
 export const ps3ClientId : string 		= '459823182044725269';
 export const psVitaClientId : string 	= '493957159323828259';
 
