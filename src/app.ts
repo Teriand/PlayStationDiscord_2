@@ -258,7 +258,7 @@ function spawnMainWindow() : void
 								details: presence.titleName,
 								state: presence.gameStatus,
 								startTimestamp: Date.now(),
-								largeImageText: presence.titleName
+								largeImageText: presence.npTitleId
 							};
 
 							log.info('Game has switched', presence.titleName);
@@ -283,7 +283,7 @@ function spawnMainWindow() : void
 						discordRichPresenceData = {
 							details: presence.titleName,
 							state: presence.gameStatus,
-							largeImageText: presence.titleName
+							largeImageText: presence.npTitleId
 						};
 
 						if (supportedTitleId !== undefined)
