@@ -244,6 +244,8 @@ function spawnMainWindow() : void
 						{
 							discordRichPresenceData = {
 								details: 'Online',
+								smallImageKey: 'ps4_small',
+								smallImageText: presence.platform
 							};
 
 							discordRichPresenceOptionsData = {
@@ -285,7 +287,9 @@ function spawnMainWindow() : void
 						discordRichPresenceData = {
 							details: presence.titleName,
 							state: presence.gameStatus,
-							largeImageText: presence.titleName
+							largeImageText: presence.titleName,
+							smallImageKey: 'ps4_small',
+							smallImageText: presence.platform
 						};
 
 						if (supportedTitleId !== undefined)
