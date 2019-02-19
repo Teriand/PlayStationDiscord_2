@@ -258,7 +258,9 @@ function spawnMainWindow() : void
 								details: presence.titleName,
 								state: presence.gameStatus,
 								startTimestamp: Date.now(),
-								largeImageText: presence.titleName
+								largeImageText: presence.titleName,
+								smallImageKey: 'ps4_small',
+								smallImageText: presence.platform
 							};
 
 							log.info('Game has switched', presence.titleName);
